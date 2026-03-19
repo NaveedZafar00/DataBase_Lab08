@@ -29,8 +29,9 @@ cur.execute("""
 """)
 conn.commit()
 
+# Thanks to peolpe from the Internet I found this
 for x, y in rows:
-    # Thanks to peolpe from Internet I found this
+    # Some help from AI to go through the coordinates
     try:
         location = geolocator.reverse(f"{y}, {x}")
         address = location.address if location else None
