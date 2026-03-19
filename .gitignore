@@ -1,14 +1,10 @@
-# env (пароли и секреты)
 .env
 
-# python
 __pycache__/
 *.pyc
 
-# vscode
 .vscode/
 
-# mac/windows мусор
 .DS_Store
 Thumbs.db
 
