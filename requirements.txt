@@ -1,0 +1,3 @@
+psycopg2==2.9.11
+geopy==2.4.1
+python-dotenv==1.0.1
